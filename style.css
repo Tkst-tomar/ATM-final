@@ -1,0 +1,5 @@
+*{box-sizing: border-box;}
+#container{width: 400px; height: 300px; margin: 100px auto;background-color: #1A374D;color: #B1D0E0;padding: 30px;}
+input{font-size: 15px; padding: 10px 5px;width: 90%;margin:50px auto;display: block;}
+#btn{padding: 20px 50px; border-radius: 100px;margin: auto;font-weight: 400;display: block;}
+p{color: white;}
