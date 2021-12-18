@@ -18,6 +18,21 @@ i{cursor: pointer;}
 #container1{width: fit-content;display: flex;height: 200px;position: relative;left: 100vw;bottom:50vh;transform: translate(-13%,0%);transition: 0.75s;}
 #iconBox{background-color: #1A374D;display: flex;align-items: center;border-radius: 20px;cursor: pointer;transition: 0.5s;}
 #iconBox:hover{background-color: #406882;}
-#iconBox p{transform: rotate(270deg);display: block;position: relative;left: -40px;}
+#iconBox p{transform: rotate(270deg);position: relative;left: -40px;}
 table{z-index: 100000;background-color: white;position: relative;left: -80px;border: 1px solid black;}
 th{width: 100px;text-align: center;border: 1px solid black;}
+.def{display: block;}
+.def1{display: none;}
+
+
+
+@media(max-width:500px)
+{
+    *{font-size:15px;}
+    #container1{width: fit-content;height: 200px;position: relative;left: 15vw;bottom:0vh;transform: translate(3%,0%);transition: 0.75s;display: block;}
+    #iconBox p{transform: rotate(0deg);left: 50%;transform: translate(-50%,0%);padding: 20px 0px;padding-bottom: 30px;}
+    table{left: 0px;top: -20px;}
+    .def{display: none;}
+    .def1{display: block;}
+    
+}
